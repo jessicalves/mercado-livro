@@ -1,0 +1,31 @@
+### Get custumers
+GET localhost:8080/customer
+
+### Get
+GET localhost:8080/customer/2
+
+### Get
+GET localhost:8080/customer?name=Jessica
+
+### Cadastra um customer
+POST localhost:8080/customer
+Content-Type: application/json
+
+{
+  "name": "Jessica",
+  "email": "jessica@gmail.com"
+}
+
+### Update
+PUT localhost:8080/customer/1
+Content-Type: application/json
+
+{
+  "name": "Teste",
+  "email": "teste@gmail.com"
+}
+
+
+### Exclui o usuário
+DELETE localhost:8080/customer/3
+
