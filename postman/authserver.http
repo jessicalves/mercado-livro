@@ -16,6 +16,16 @@ Content-Type: application/json
   "email": "jessica@gmail.com"
 }
 
+### Cadastra um book
+POST localhost:8080/book
+Content-Type: application/json
+
+{
+  "name": "Livro 3",
+  "price": 500.00,
+  "customer_id": 1
+}
+
 ### Update
 PUT localhost:8080/customer/1
 Content-Type: application/json
@@ -29,3 +39,24 @@ Content-Type: application/json
 ### Exclui o usuário
 DELETE localhost:8080/customer/3
 
+### Get books
+GET localhost:8080/book
+
+### Get book ativo
+GET localhost:8080/book/active
+
+### Get book ID
+GET localhost:8080/book/2
+
+### Exclui o book
+DELETE localhost:8080/book/3
+
+### Update book
+PUT localhost:8080/book/1
+Content-Type: application/json
+
+{
+  "name": "Livro 2",
+  "price": 100.00,
+  "customer_id": 2
+}
