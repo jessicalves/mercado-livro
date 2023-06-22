@@ -12,8 +12,9 @@ POST localhost:8080/customer
 Content-Type: application/json
 
 {
-  "name": "Jessica",
-  "email": "jessica@gmail.com"
+  "name": "Teste",
+  "email": "teste@gmail.com",
+  "password": "123456"
 }
 
 ### Cadastra um book
