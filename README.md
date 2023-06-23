@@ -1,4 +1,4 @@
-# mercado-livro
+# Marketplace de Livros
 
 Kotlin e Spring Boot
 
